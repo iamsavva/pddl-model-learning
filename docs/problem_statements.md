@@ -14,7 +14,7 @@ I will first define types, objects, variables, and terms.
 I will now define predicates, atoms, and literals.
 
 - A **predicate of arity *n*** is a boolean function of *n* terms, denoted as $`p/n`$, where $`p`$ is the predicate symbol and *n* is the number of term arguments, e.g.: `happy/1`, `position/2`, etc.
-- An **atom** is a formula $`p(t_1, .. t_n)`$, where $`p/n`$ is a predicate and each $`t_i`$ is a term, e.g. `position( arm, (0,1) )` or `happy( X )`. 
+- An **atom** is a formula $p(t_1, .. t_n)$, where $p/n$ is a predicate and each $t_i$ is a term, e.g. `position( arm, (0,1) )` or `happy( X )`. 
 	- A predicate is a function, while an atom is an evaluation of this function for some specific terms. Due to the similarity of these definitions, I will use them interchangeably. 
 - A **literal** is an atom $`A`$ or its negation $`\neg A`$.
 	- Since an atom is an evaluation of a predicate and a literal is a positive or a negative atom, all literals are either true or false.
